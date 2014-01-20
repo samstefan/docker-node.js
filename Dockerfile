@@ -9,7 +9,7 @@ from base
 run apt-get update && apt-get upgrade
 
 #get curl
-run apt-get install curl
+run apt-get install -y curl
 
 #install nave
 run curl -fsSL https://raw.github.com/isaacs/nave/master/nave.sh > /usr/local/bin/nave
